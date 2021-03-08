@@ -125,14 +125,12 @@ body{
 }
 
 .redes-sociais-icon{
-    margin-right: 20px;
+    margin-right: 40px;
     background-color: rgba(0, 162, 255, 0.753);
     padding-top: 35px;
     border-radius: 20px;
     
 }
-
-
 
 
 .sobre{
@@ -161,12 +159,14 @@ body{
     font-size: 25px;
 }
 
+
+
 .projetos{
     margin-top: 100px;
     background-color: rgba(0, 0, 0, 0.70);
     border-radius: 100px;
     width: 85vw;
-    height: 550px;
+    height: 650px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -174,13 +174,18 @@ body{
     font-family: 'Courier New', Courier, monospace;
 }
 
-
-
 .projetos-geral{
     display: flex;
     flex-direction: row;
     text-align: center;
     align-items: center;
+}
+
+.python, .javascript, .c{
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 50px;
+    margin-right: 20px;
+    padding: 20px 20px;
 }
 
 .projeto-box{
@@ -197,7 +202,7 @@ body{
 }
 
 .projeto-box-main a{
-    color: rgb(30, 221, 255);
+    color: darkslategrey;
     font-size: 25px;
     max-width: 150px;
     text-decoration:none;
@@ -210,17 +215,14 @@ body{
     width: 80px;
 }
 
-.projetos-titulo h1, .projeto-box-number h2{
-    color: rgb(188, 255, 30);
+.projeto-box-number h2{
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 100px;
+    padding: 10px 10px;
 }
 
-.python, .javascript, .c{
-    background-color: rgba(255, 255, 255, 0.6);
-    border-radius: 50px;
-    margin-right: 20px;
-    padding: 20px 20px;
-    
-    
+.projetos-titulo h1, .projeto-box-number h2{
+    color: rgb(188, 255, 30);
 }
 
 
