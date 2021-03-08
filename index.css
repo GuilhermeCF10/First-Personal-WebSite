@@ -6,6 +6,8 @@ body{
     background-image: url("background.jpg");
 }
 
+
+
 .background-header{
     
     height: 15vh;
@@ -46,7 +48,6 @@ body{
 
 }
 
-  
 .header-menu a{
     display: block;
     color: white;
@@ -62,6 +63,8 @@ body{
 
 }
 
+
+
 .background-main{
     padding-top: 50px;
     padding-bottom: 50px;
@@ -70,6 +73,8 @@ body{
     justify-content: center;
     align-items: center;
 }
+
+
 
 .inicio{
     background-color: rgba(0,0,0,0.70);
@@ -131,6 +136,7 @@ body{
     border-radius: 20px;
     
 }
+
 
 
 .sobre{
@@ -224,6 +230,7 @@ body{
 .projetos-titulo h1, .projeto-box-number h2{
     color: rgb(188, 255, 30);
 }
+
 
 
 .background-footer{
